@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Semitone Difference Calculator</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link href="styles/styles.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="form-container">
+        <h1 class="text-heading">Semitone Difference Calculator</h1>
+
+        <div id="notesContainer">
+            <div id="notesDisplay" class="notesDisplay">
+            </div>
+        </div>
+
+        <div id="randomize-button-container">
+        <button id="randomize-button">Get Random Notes</button>
+        </div>
+
+        <div id="answerInput-container">
+        <input id="answerInput" type="number" placeholder="Enter the note interval distance (0-12)" min="0" max="12">
+        </div>
+
+        <form id="answerForm" class="mb-4">
+            
+            <button type="submit" id="submit-button">Submit Answer</button>
+            <button id="give-up-button">Give Up</button>
+        </form>
+
+        <div id="message" class="result-message">
+
+        </div>
+
+        
+        
+        <div id="streakDisplay">
+        <div id="streak">Streak: 0</div>
+        </div>
+
+        <div id="allnotescontainer">
+        <div id="explanation" >
+        </div>
+        </div>
+        
+        <div id="restart-button-container">
+        <button id="restart-button" style="display: none;">Restart</button>
+        </div>
+        
+    </div>
+
+    <script src="./build/main.js"></script>
+</body>
+</html>

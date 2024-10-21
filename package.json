@@ -1,0 +1,20 @@
+{
+    "name": "semitone-difference-basic-algorithm",
+    "version": "1.0.0",
+    "description": "project: semitone difference - basic algorithm - http://syllabus.africacode.net/projects/semitone-challenge/basic-algorithm/",
+    "main": "src/semitone_main.js",
+    "scripts": {
+        "test": "jasmine",
+        "build": "npx webpack --config webpack.config.js"
+    },
+    "keywords": [],
+    "author": "Tshepo Mohlophehi - https://github.com/TshepoMohlophehi",
+    "license": "ISC",
+    "devDependencies": {
+        "jasmine": "^5.1.0",
+        "webpack": "^5.94.0",
+        "webpack-cli": "^5.1.4",
+        "fs": "^0.0.1-security",
+        "jsdom": "^25.0.0"
+    }
+}
